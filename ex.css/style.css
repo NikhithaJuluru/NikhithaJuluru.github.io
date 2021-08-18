@@ -1,0 +1,100 @@
+body{
+    text-align: center;
+    width: 100%;
+}
+h1{
+    text-shadow: 2px 2px 1px blue ;
+}
+h2{
+    color: darkblue;
+    position: relative;
+    width: 50%;
+    background-color: darkgray;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+h2::first-line{
+    background-color: fuchsia;
+}
+fieldset{
+    border: 3px solid crimson;
+    background-color: rgb(200, 226, 233);
+    font-size:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+ol{
+    color: rgb(52, 80, 20);
+    font-size: 20px;
+    background-color: darksalmon;
+    list-style-position: inside;
+    padding: 21px;
+}
+li:hover{
+        background-color: rgb(33, 148, 148);
+}
+.see{
+    color: rgb(0, 255, 55);
+}
+.ee{
+    background-color: gainsboro;
+    text-align: left;
+    text-decoration: underline;
+    text-transform: uppercase;
+    
+}
+#div{
+    color: rgb(93, 24, 121);
+    background-image: url("H:\\bbbbb(1).jpg");
+    height: 200px;
+    width: 700px;
+    background-repeat: no-repeat;
+    border: 5px dashed black;
+    margin: 50px 20px 40px 10px;
+    margin: top left down right;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 50px;
+}
+em{
+    color: lightcoral;
+}
+img{
+    opacity: 0.6;
+}
+img:hover{
+    opacity: 1.0;
+}
+h5{
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 800px;
+    z-index: 1;
+}
+h6{
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    top: 800px;
+    z-index: 2;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(141, 101, 206);
+}
+a:hover{
+    color: green;
+    text-decoration: underline;
+}
+table,td,tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
